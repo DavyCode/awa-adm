@@ -74,7 +74,7 @@ const InputPassword = ({
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6 text-gray-500 hover:text-gray-900 cursor-pointer"
+            className="w-10 h-10 text-gray-500 px-2 hover:text-gray-900 cursor-pointer"
             onClick={() => setShowPassword(!showPassword)}
           >
             <path
