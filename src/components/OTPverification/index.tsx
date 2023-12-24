@@ -25,9 +25,9 @@ const OTPVerification:React.FC<IProp> = ({modeOfVerification = "phone number"}) 
         variant="default"
         className="my-1 !py-5 bg-[#3D663D] w-full flex justify-center items-center text-sm font-semibold text-white"
       >
-        Verify
+        Continue
       </Button>
-      <label className="text-gray-500 text-center my-2">03:00</label>
+      <label className="text-[#66A23D] text-center my-2">03:00</label>
 
       <p className="py-3 text-center my-2">
         Did not receive the code?
@@ -37,7 +37,7 @@ const OTPVerification:React.FC<IProp> = ({modeOfVerification = "phone number"}) 
       </p>
 
       <Link href="/verify" className="underline text-[#3D663D] font-medium">
-        Use Email address instead
+        Use Email address
       </Link>
     </div>
   );
