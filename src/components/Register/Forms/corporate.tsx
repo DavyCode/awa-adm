@@ -6,7 +6,7 @@ import { Button } from "@/components/Forms/Button";
 import InputField from "@/components/Forms/input-text";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
-import GoogleIcon from "../../../../assets/icons/GoogleIcon";
+import GoogleIcon from "@/assets/icons/GoogleIcon";
 import InputFieldPhoneNumber from "@/components/Forms/input-phone-number";
 
 const options = ["Option 1", "Option 2", "Option 3"];
@@ -19,9 +19,9 @@ const CorporateForm = () => {
     // Perform any other actions based on the selected option
   };
   return (
-    <div className="flex flex-col gap-6 text-left sm:gap-4 mt-2">
+    <div className="flex flex-col gap-6 mt-2 text-left sm:gap-4">
       <form>
-        <div className="flex flex-col gap-6 text-left sm:gap-4 mt-4">
+        <div className="flex flex-col gap-6 mt-4 text-left sm:gap-4">
           <InputField
             label="Fullname"
             name="fullname"
@@ -84,14 +84,14 @@ const CorporateForm = () => {
           </Button>
           <OrDivider content="or" />
           <Button
-            className="bg-white/20 w-full gap-x-2 py-5 border-gray-300 border rounded-md flex justify-center items-center shadow-none"
+            className="flex items-center justify-center w-full py-5 border border-gray-300 rounded-md shadow-none bg-white/20 gap-x-2"
             type="button"
           >
             <GoogleIcon />
             <span className="text-sm text-gray-800">Sign up with Google</span>
           </Button>
 
-          <p className="py-1 text-center text-sm">
+          <p className="py-1 text-sm text-center">
             Already have an account?
             <Link
               href="/login"

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const GreatOfferingIcon = () => {
   return (
@@ -31,6 +31,6 @@ const GreatOfferingIcon = () => {
       />
     </svg>
   );
-}
+};
 
-export default GreatOfferingIcon
+export default GreatOfferingIcon;

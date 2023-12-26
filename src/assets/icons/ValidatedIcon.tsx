@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 interface IProp {
-    stroke?: string
+  stroke?: string;
 }
 
 const ValidatedIcon: React.FC<IProp> = ({ stroke = "#333333" }) => {
@@ -31,4 +31,4 @@ const ValidatedIcon: React.FC<IProp> = ({ stroke = "#333333" }) => {
   );
 };
 
-export default ValidatedIcon
+export default ValidatedIcon;

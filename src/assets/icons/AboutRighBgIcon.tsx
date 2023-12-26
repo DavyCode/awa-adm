@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const AboutRighBgIcon = () => {
   return (
@@ -73,6 +73,6 @@ const AboutRighBgIcon = () => {
       />
     </svg>
   );
-}
+};
 
-export default AboutRighBgIcon
+export default AboutRighBgIcon;

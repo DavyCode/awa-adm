@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 interface IProp {
-    fill?: string
+  fill?: string;
 }
 
 const PeopleCircleIcon: React.FC<IProp> = ({ fill = "#3D663D" }) => {
@@ -64,4 +64,4 @@ const PeopleCircleIcon: React.FC<IProp> = ({ fill = "#3D663D" }) => {
   );
 };
 
-export default PeopleCircleIcon
+export default PeopleCircleIcon;

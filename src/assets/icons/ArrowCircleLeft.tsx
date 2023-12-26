@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const ArrowCircleLeft = () => {
   return (
@@ -26,6 +26,6 @@ const ArrowCircleLeft = () => {
       />
     </svg>
   );
-}
+};
 
-export default ArrowCircleLeft
+export default ArrowCircleLeft;

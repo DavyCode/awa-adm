@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const GoogleIcon = () => {
   return (
@@ -39,6 +39,6 @@ const GoogleIcon = () => {
       </defs>
     </svg>
   );
-}
+};
 
-export default GoogleIcon
+export default GoogleIcon;

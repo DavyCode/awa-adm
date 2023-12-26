@@ -1,29 +1,26 @@
-import React from 'react'
+import React from "react";
 
-const HealthIcon = () => {
+const FoundationIcon = () => {
   return (
     <svg
-      width="44"
-      height="44"
-      viewBox="0 0 44 44"
+      width="57"
+      height="57"
+      viewBox="0 0 57 57"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
+      <rect width="57" height="57" rx="28.5" fill="#3D663D" />
       <path
-        d="M0 4C0 1.79086 1.79086 0 4 0H40C42.2091 0 44 1.79086 44 4V40C44 42.2091 42.2091 44 40 44H4C1.79086 44 0 42.2091 0 40V4Z"
-        fill="#ECF0EC"
-      />
-      <path
-        d="M12 32H32"
-        stroke="#001A00"
+        d="M18.5 38.5H38.5"
+        stroke="white"
         strokeWidth="1.5"
         strokeMiterlimit="10"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
-        d="M27 12H17C14 12 13 13.79 13 16V32H31V16C31 13.79 30 12 27 12Z"
-        stroke="#001A00"
+        d="M33.5 18.5H23.5C20.5 18.5 19.5 20.29 19.5 22.5V38.5H37.5V22.5C37.5 20.29 36.5 18.5 33.5 18.5Z"
+        stroke="white"
         strokeWidth="1.5"
         strokeMiterlimit="10"
         strokeLinecap="round"
@@ -31,8 +28,8 @@ const HealthIcon = () => {
       />
       <path
         opacity="0.4"
-        d="M24.06 25H19.93C19.42 25 18.99 25.42 18.99 25.94V32H24.99V25.94C25 25.42 24.58 25 24.06 25Z"
-        stroke="#001A00"
+        d="M30.56 31.5H26.43C25.92 31.5 25.49 31.92 25.49 32.44V38.5H31.49V32.44C31.5 31.92 31.08 31.5 30.56 31.5Z"
+        stroke="white"
         strokeWidth="1.5"
         strokeMiterlimit="10"
         strokeLinecap="round"
@@ -40,16 +37,16 @@ const HealthIcon = () => {
       />
       <g opacity="0.4">
         <path
-          d="M22 16V21"
-          stroke="#001A00"
+          d="M28.5 22.5V27.5"
+          stroke="white"
           strokeWidth="1.5"
           strokeMiterlimit="10"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
         <path
-          d="M19.5 18.5H24.5"
-          stroke="#001A00"
+          d="M26 25H31"
+          stroke="white"
           strokeWidth="1.5"
           strokeMiterlimit="10"
           strokeLinecap="round"
@@ -58,6 +55,6 @@ const HealthIcon = () => {
       </g>
     </svg>
   );
-}
+};
 
-export default HealthIcon
+export default FoundationIcon;

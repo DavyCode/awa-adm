@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const RetirementIcon = () => {
   return (
@@ -38,6 +38,6 @@ const RetirementIcon = () => {
       />
     </svg>
   );
-}
+};
 
-export default RetirementIcon
+export default RetirementIcon;

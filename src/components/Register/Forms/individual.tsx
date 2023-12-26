@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import InputField from "@/components/Forms/input-text";
 import { Button } from "@/components/Forms/Button";
 import OrDivider from "@/components/Divider";
-import GoogleIcon from "../../../../assets/icons/GoogleIcon";
+import GoogleIcon from "@/assets/icons/GoogleIcon";
 import CountryDropdown from "@/components/Dropdowns/CountryList";
 import Dropdown from "@/components/Dropdowns/selectOption";
 import InputFieldPhoneNumber from "@/components/Forms/input-phone-number";
@@ -21,7 +21,7 @@ const IndividualForm = () => {
 
   return (
     <form>
-      <div className="flex flex-col gap-6 text-left sm:gap-4 mt-4">
+      <div className="flex flex-col gap-6 mt-4 text-left sm:gap-4">
         <InputField
           label="Fullname"
           name="fullname"
@@ -68,14 +68,14 @@ const IndividualForm = () => {
         </Button>
         <OrDivider content="or" />
         <Button
-          className="border-gray-300 bg-white/20 w-full gap-x-2 py-5 border-gray-200 border rounded-md flex justify-center items-center shadow-none"
+          className="flex items-center justify-center w-full py-5 border border-gray-200 border-gray-300 rounded-md shadow-none bg-white/20 gap-x-2"
           type="button"
         >
           <GoogleIcon />
           <span className="text-sm text-gray-800">Sign up with Google</span>
         </Button>
 
-        <p className="py-1 text-center text-sm">
+        <p className="py-1 text-sm text-center">
           Already have an account?
           <Link
             href="/"

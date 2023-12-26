@@ -2,8 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import Logo from "../../../assets/icons/Logo";
-import CloseIcon from "../../../assets/icons/CloseIcon";
+import Logo from "@/assets/icons/Logo";
 
 const NavBar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -12,12 +11,11 @@ const NavBar = () => {
     setMenuOpen(!isMenuOpen);
   };
 
-
   return (
     <div className="relative">
-      <div className="flex w-full justify-between fixed bg-white items-center shadow-md h-10 py-8 px-3 sm:px-20 z-20">
+      <div className="fixed z-20 flex items-center justify-between w-full h-10 px-3 py-8 bg-white shadow-md sm:px-20">
         <Link href="/">
-            <Logo />
+          <Logo />
         </Link>
       </div>
     </div>
