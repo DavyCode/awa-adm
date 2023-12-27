@@ -32,7 +32,7 @@ const UserDropdown: React.FC<DropdownProps> = ({
     return () => {
       document.removeEventListener("click", handleOutsideClick);
     };
-  }, [dropdownRef]);
+  }, [dropdownRef, setIsDropdownOpen]);
 
   const handleLogout = () => {
     /* Logout functionality here */
