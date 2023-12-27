@@ -1,6 +1,10 @@
 import React from "react";
 
-const ArrowDownIcon = () => {
+interface IProp {
+  stroke?: string;
+}
+
+const ArrowDownIcon: React.FC<IProp> = ({ stroke = "#002300" }) => {
   return (
     <svg
       width="17"
@@ -11,7 +15,7 @@ const ArrowDownIcon = () => {
     >
       <path
         d="M13.5491 5.96667L9.20247 10.3133C8.68914 10.8267 7.84914 10.8267 7.3358 10.3133L2.98914 5.96667"
-        stroke="#002300"
+        stroke={stroke}
         strokeWidth="1.5"
         strokeMiterlimit="10"
         strokeLinecap="round"
