@@ -14,11 +14,10 @@ const Menu: React.FC<IProps> = ({ data, ActiveMenu }) => {
   return (
     <Link
       href={`/${href}`}
-      className="flex flex-col items-center text-sm text-white w-fit"
+      className="flex flex-col items-center text-sm text-white"
     >
       <span
-        className={clsx({
-          "mb-1 font-normal": true,
+        className={clsx("mb-1 font-normal whitespace-nowrap", {
           "!font-bold": labelChars[1] === href,
         })}
       >
